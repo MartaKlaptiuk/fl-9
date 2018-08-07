@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: serif;
+  background: #efefef; }
+
+.main-wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+header {
+  display: flex; }
+
+.logo {
+  width: 40%; }
+  .logo img {
+    width: 100%; }
+
+nav {
+  width: 60%;
+  height: 70px;
+  margin-top: 150px;
+  border-top: 1px solid #617d8a;
+  border-bottom: 1px solid #617d8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  nav a {
+    text-decoration: none;
+    color: #f9532a;
+    text-transform: uppercase; }
+
+.toolbar {
+  text-align: right; }
+  .toolbar input {
+    margin-top: 30px;
+    border: 1px solid #f9532a;
+    padding: 10px 20px;
+    font-weight: bold; }
+  .toolbar ::placeholder {
+    color: #f9532a; }
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between; }
+  .post-list article {
+    width: 48%;
+    background-color: #fff;
+    margin-bottom: 20px; }
+  .post-list img {
+    width: 100%;
+    padding: 10px; }
+
+.post-description {
+  width: 94%;
+  color: #bfbfbf;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 15px;
+  font-size: 12px;
+  border-bottom: 1px solid #617d8a; }
+
+h3 {
+  text-transform: uppercase;
+  color: #617d8a;
+  margin-left: 15px;
+  padding-top: 10px; }
+
+p {
+  margin-left: 15px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 20px; }
+
+.about,
+.contact-form {
+  margin-top: 30px; }
+  .about h1,
+  .about h4,
+  .contact-form h1,
+  .contact-form h4 {
+    text-transform: uppercase;
+    color: #f9532a;
+    text-align: right; }
+  .about p,
+  .contact-form p {
+    color: #757575; }
+
+.about img {
+  max-width: 930px;
+  margin: 0 15px; }
+
+.contact-form {
+  width: 960px; }
+  .contact-form form input,
+  .contact-form form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: serif; }
+
+.btn-wrapper {
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer; }
+  .btn-wrapper input[type=submit] {
+    background-color: #f9532a;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: auto; }
+
+footer span {
+  font-size: 14px;
+  margin-bottom: 20px; }

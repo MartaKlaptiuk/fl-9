@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: $mainFont;
+	background: $contentBackground;
+}
+.main-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+}
+.logo {
+	width: 40%;
+	img{
+	width: 100%;
+	}
+}
+
+nav {
+	width: 60%;
+	height: 70px;
+	margin-top: 150px;
+	border-top: 1px solid $borderColor;
+	border-bottom: 1px solid $borderColor;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	a {
+		text-decoration: none;
+		color: $mainColor;
+		text-transform: uppercase;
+	}
+}
+.toolbar {
+	text-align: right;
+	input {
+		margin-top: 30px;
+		border: 1px solid $mainColor;
+		padding: 10px 20px;	
+		font-weight: bold;
+	}
+	::placeholder {
+		color: $mainColor;
+	}
+}
+.post-list {
+	display:flex;
+	flex-wrap:wrap;
+    flex-direction:row;
+    margin-top: 20px;
+    justify-content: space-between;
+	article {
+		width: 48%;
+		background-color: $blockBackground;	
+		margin-bottom: 20px;
+	}
+	img {
+		width: 100%;
+		padding: 10px;
+	}
+}
+.post-description {
+	width: 94%;
+	color: $postDescription;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-left: 15px;
+	font-size: 12px;
+	border-bottom: 1px solid $borderColor;
+}
+h3 {
+	text-transform: uppercase;	
+	color: $cardHeader;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+p {
+	margin-left: 15px;
+	line-height: 28px;
+	color: $paragraphColor;
+	margin-bottom: 20px;
+}
+.about, 
+.contact-form {
+	margin-top: 30px;
+	h1, 
+	h4 {
+	text-transform: uppercase;
+	color: $mainColor;
+	text-align: right;
+}
+	p {
+		color: $paragraphColor;
+	}
+}
+.about{
+	img{
+		max-width: 930px;
+		margin: 0 15px;
+	}
+}
+.contact-form{
+	width: 960px;
+	form{
+	input,
+	textarea{
+		display: block;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 15px;
+		font-family: $mainFont;
+	}
+}
+}
+
+.btn-wrapper{
+	width: 200px;
+    height: 40px;
+	margin-left: auto;
+	cursor: pointer;
+
+	input[type=submit] {
+	background-color: $mainColor;	
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+	margin-left: auto;
+}	
+}
+
+footer{
+	span{
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+}

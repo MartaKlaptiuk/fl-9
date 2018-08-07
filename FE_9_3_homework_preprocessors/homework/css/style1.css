@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: sans-serif;
+  background: #fff; }
+
+.main-wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+header {
+  display: flex; }
+
+.logo {
+  width: 40%; }
+  .logo img {
+    width: 100%; }
+
+nav {
+  width: 60%;
+  height: 70px;
+  margin-top: 150px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  nav a {
+    text-decoration: none;
+    color: #00bfff;
+    text-transform: uppercase; }
+
+.toolbar {
+  text-align: right; }
+  .toolbar input {
+    margin-top: 30px;
+    border: 1px solid #00bfff;
+    padding: 10px 20px;
+    font-weight: bold; }
+  .toolbar ::placeholder {
+    color: #00bfff; }
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between; }
+  .post-list article {
+    width: 48%;
+    background-color: #e6e6e6;
+    margin-bottom: 20px; }
+  .post-list img {
+    width: 100%;
+    padding: 10px; }
+
+.post-description {
+  width: 94%;
+  color: #6666ff;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 15px;
+  font-size: 12px;
+  border-bottom: 1px solid black; }
+
+h3 {
+  text-transform: uppercase;
+  color: #6666ff;
+  margin-left: 15px;
+  padding-top: 10px; }
+
+p {
+  margin-left: 15px;
+  line-height: 28px;
+  color: #00004d;
+  margin-bottom: 20px; }
+
+.about,
+.contact-form {
+  margin-top: 30px; }
+  .about h1,
+  .about h4,
+  .contact-form h1,
+  .contact-form h4 {
+    text-transform: uppercase;
+    color: #00bfff;
+    text-align: right; }
+  .about p,
+  .contact-form p {
+    color: #00004d; }
+
+.about img {
+  max-width: 930px;
+  margin: 0 15px; }
+
+.contact-form {
+  width: 960px; }
+  .contact-form form input,
+  .contact-form form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: sans-serif; }
+
+.btn-wrapper {
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer; }
+  .btn-wrapper input[type=submit] {
+    background-color: #00bfff;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: auto; }
+
+footer span {
+  font-size: 14px;
+  margin-bottom: 20px; }
