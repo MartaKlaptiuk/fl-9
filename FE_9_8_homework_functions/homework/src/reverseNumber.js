@@ -18,4 +18,4 @@ const reverseInt = (num) => {
   return newNum;
 };
 
-//console.log(reverseInt(-12345));
+console.log(reverseInt());

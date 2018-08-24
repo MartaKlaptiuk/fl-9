@@ -1,10 +1,10 @@
-var arr = [3, 0, -3],
+let arr = [], //here you can enter your numbers
   fMin;
 
 function getMin(arr) {
-  var arrLen = arr.length,
+  let arrLen = arr.length,
     minEl = arr[0];
-  for (var i = 0; i < arrLen; i++) {
+  for (let i = 0; i < arrLen; i++) {
     if (minEl > arr[i]) {
       minEl = arr[i];
     }
@@ -13,6 +13,6 @@ function getMin(arr) {
 }
 fMin = getMin(arr);
 
-//console.log(fMin);
+console.log(fMin);
 
 
